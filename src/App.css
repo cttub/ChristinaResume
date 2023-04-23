@@ -1,38 +1,117 @@
-.App {
-  text-align: center;
+body{
+  background: #FFFADA;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: 'BigFat';
+  src: url('../public/fonts/Bigfat.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: 'Betm Bold';
+  src: url('../public/fonts/BetmRounded-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+@font-face {
+  font-family: 'Betm Regular';
+  src: url('../public/fonts/BetmRounded-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Betm Medium';
+  src: url('../public/fonts/BetmRounded-Medium.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 152px;
+}
+h1, h2, h3{
+  margin-top: 0px;
+  font-family: 'Bigfat';
+  color: #FFFFFF;
+  -webkit-text-stroke: .101rem #4B3A50; 
+}
+p, button{
+  font-family: 'Betm Medium';
+}
+p{
+  font-size: 36px;
+  color: #4B3A50;
+}
+button{
+  font-size: 30px;
   color: white;
+  padding: 10px 35px;
+  background: #F178B6;
+  box-shadow: 0px 4px 4px #4B3A50;  
+  border-radius: 35.5px;
+  transition: ease-in-out .2s;
+}
+button:hover{
+  transform: scale(1.08);
+}
+button:active{
+  box-shadow: 0px 1px 4px #4B3A50;  
+}
+h1{
+  font-size: 70px;
+}
+h2{
+  font-size: 50px;
+
+}
+h3{
+  font-size: 40px;
+
+}
+.floating{
+  animation: floater 2s infinite;
+}
+@keyframes floater {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, 40px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
 }
 
-.App-link {
-  color: #61dafb;
+.fp-watermark{
+  display: none;
+}
+*::-webkit-scrollbar {
+  width: 10px !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+*::-webkit-scrollbar-thumb {
+  background-color: #4B3A50 !important;
+  border-radius: 25px !important;
+  border: 4px solid #4B3A50 !important;
+}
+@media only screen and (max-width: 639px){
+  h1, h2, h3{
+    -webkit-text-stroke: .08rem #4B3A50; 
   }
-  to {
-    transform: rotate(360deg);
+  h1{
+    font-size: 35px;
+    white-space: nowrap;
   }
+  h2{
+    font-size: 30px;
+  
+  }
+  h3{
+    font-size: 20px;
+  
+  }
+  p, button{
+    font-size: 20px;
+  }
+
 }
