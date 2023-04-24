@@ -20,7 +20,7 @@
     align-items: center;
     justify-content: center;
 }
-.landing-txt > h1{
+.landing-txt > h2{
     margin-bottom: -30px;
 }
 
@@ -74,6 +74,10 @@
         padding: 40px;
         margin: 20px;
     }
+    .landing-txt > h2{
+        margin-bottom: -20px;
+    }
+    
 }
 @media only screen and (max-width: 289px){
     .landing{

@@ -79,6 +79,7 @@
     text-align: center;
     border-radius: 26px;
     margin: 30px;
+    transition: ease-in-out .4s;
 }
 
 .inner-box{
@@ -95,6 +96,10 @@
     width: 100px;
     border-radius: 36px;  
     height: 100px;
+    transition: ease-in-out .4s;
+}
+.app:hover, .skill-pill:hover{
+    transform: scale(1.2);
 }
 
 .procreate{

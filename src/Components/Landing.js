@@ -27,7 +27,7 @@ class Landing extends Component {
             <img className='floatingGirl floating' src={bunny} />
           </div>
           <div className='landing-txt col-lg-6'>
-            <h1>Christina Bui</h1>
+            <h2>Christina Bui</h2>
             <p>
               Highly motivated and dedicated developer seeking to further
               develop foundational skills and make a positive impact in the
