@@ -4,8 +4,10 @@ class MyWork extends Component {
     state = {  } 
     render() { 
         return (
-            <div>
-                
+            <div id='work'>
+                <div>
+
+                </div>
             </div>
 
         );

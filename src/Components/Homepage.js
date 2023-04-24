@@ -4,6 +4,7 @@ import ReactFullpage from '@fullpage/react-fullpage';
 
 import Landing from './Landing';
 import Career from './Career';
+import Skills from './Skills';
 
 const licenseKey = '5OHLK-PXI0J-1K60I-BJ6SI-TOONN';
 
@@ -32,6 +33,9 @@ class Homepage extends Component {
               </div>
               <div className='section'>
                 <Career />
+              </div>
+              <div className='section'>
+                <Skills />
               </div>
             </ReactFullpage.Wrapper>
           );

@@ -15,12 +15,12 @@ class Landing extends Component {
     return (
       <div id='home'>
         <Fade left duration={2000}>
-          <img className='cloudOne cloud' src={cloud1} />
-          <img className='cloudShadowOne cloud' src={cloudShadow1} />
+            <img className='cloudOne cloud' src={cloud1} />
+            <img className='cloudFloat cloudShadowOne cloud' src={cloudShadow1} />
         </Fade>
         <Fade right duration={2000}>
-          <img className='cloudTwo cloud' src={cloud1} />
-          <img className='cloudShadowTwo cloud' src={cloudShadow1} />
+          <img className='cloudFloat cloudTwo cloud' src={cloud1} />
+          <img className='cloudFloat cloudShadowTwo cloud' src={cloudShadow1} />
         </Fade>
         <div className='landing'>
           <div>

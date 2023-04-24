@@ -80,6 +80,20 @@ h3{
     transform: translate(0, 0);
   }
 }
+.cloudFloat{
+  animation: cloudFloat 2s infinite;
+}
+@keyframes cloudFloat {
+  0% {
+    transform: translate(0, 0);
+  }
+  40% {
+    transform: translate(0, 10px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
 
 .fp-watermark{
   display: none;
@@ -114,4 +128,7 @@ h3{
     font-size: 20px;
   }
 
+}
+#fp-nav>ul>li>a>span{
+  background: #F178B6 !important;
 }

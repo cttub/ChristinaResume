@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 import '../Style/career.css';
 import balloonGirl from '../Assets/Balloon.png';
-
+import miniCloud from '../Assets/smallCloud.svg';
 import Fade from 'react-reveal/Fade';
 class Career extends Component {
     state = {  } 
     render() { 
         return (
             <div id='career'>
+                <img className='miniCloudTwo cloudsmall cloudFloat' src={miniCloud}/>
+                <img className='miniCloud cloudsmall cloudFloat' src={miniCloud}/>
                 <div className='career-info col-lg-5 col-sm-12'>
                     <h1>Career Goals</h1>
                     <p>

@@ -1,0 +1,205 @@
+#skills{
+    padding-top: 100px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #FFFADA 0%, rgba(219, 150, 208, 0.64) 100%);
+}
+.skillCloud{
+    z-index: 1;
+    position: absolute;
+}
+
+.skillCloudTwo{
+    top: 0;
+    right: -100px;
+}
+.skillCloudThree{
+    left: -200px;
+    top: 700px;
+}
+.inner-boxes{
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    height: 80%;
+}
+.box{
+    height: 400px;
+    width: auto;
+    background: rgba(255, 255, 255, 0.83);
+    border: 3px solid #4B3A50;
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 104px;
+}
+.skill-box > .title{
+    margin-bottom: 0px;
+    font-size: 80px;
+    translate: 0px -60px;
+    text-align: center;
+}
+.program-box{
+   translate: -100px 300px;
+}
+.program-box > .title{
+    margin-bottom: 0px;
+    font-size: 80px;
+    translate: 0px -60px;
+    text-align: center;
+
+}
+.filler{
+    visibility: hidden;
+}
+.java{
+    background: linear-gradient(180deg, #FFC5E3 55.21%, rgba(255, 223, 239, 0.62) 100%);
+}
+.react{
+    background: linear-gradient(180deg, #D7B2FC 55.21%, rgba(185, 150, 219, 0.22) 100%);
+}
+.html{
+    background: linear-gradient(180deg, #C8FADF 55.73%, rgba(200, 250, 223, 0) 100%);
+}
+.css{
+    background: linear-gradient(180deg, #FFE5CE 55.73%, rgba(255, 229, 206, 0.26) 100%);
+}
+.javascript{
+    background: linear-gradient(180deg, #FFFADA 55.21%, rgba(255, 250, 218, 0) 100%);
+}
+.pill-column{
+    margin: auto;
+}
+.skill-pill{  
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: solid;
+    border: 3px solid;
+    border-color: linear-gradient(180deg, #4B3A50 68.23%, rgba(75, 58, 80, 0.803279) 99.99%, rgba(75, 58, 80, 0) 100%);
+    padding: 6px 30px;
+    text-align: center;
+    border-radius: 26px;
+    margin: 30px;
+}
+
+.inner-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    translate: 0px -100px;
+    border-radius: 104px;
+    height: 90%;
+    width: 600px;
+}
+.app{
+    margin: 20px;
+    width: 100px;
+    border-radius: 36px;  
+    height: 100px;
+}
+
+.procreate{
+    background: url("../Assets/Programs/procreate.png");
+    background-position: center;
+    background-size: contain;
+}
+.slack{
+    background: url("../Assets/Programs/slack.png");
+    background-position: center;
+    background-size: contain;
+}
+.adobe{
+    background: url("../Assets/Programs/adobe.png");
+    background-position: center;
+    background-size: contain;
+}
+.wordpress{
+    background: url("../Assets/Programs/wordpress.png");
+    background-position: center;
+    background-size: contain;
+}
+.figma{
+    background: url("../Assets/Programs/figma.png");
+    background-position: center;
+    background-size: contain;
+}
+.canva{
+    background: url("../Assets/Programs/canva.png");
+    background-position: center;
+    background-size: contain;
+}
+.miro{
+    background: url("../Assets/Programs/miro.png");
+    background-position: center;
+    background-size: contain;
+}
+.smaller-device-boxes{
+    display: none;
+}
+.smaller-skill{
+    text-align: center;
+    justify-content: center;
+}
+.inner-skill, .inner-program{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.83);
+    border: 3px solid #4B3A50;
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+.skills > h1, .program > h1{
+    margin-top: 60px;
+    margin-bottom: -10px;
+}
+@media only screen and (max-width: 1299px){
+    .inner-boxes{
+        display: none;
+    }
+    .smaller-device-boxes{
+        display: block;
+        z-index: 2;
+    }
+    #skills{
+        padding-top: 0px;
+    }
+    .skillCloudOne{
+        display: none;
+    }
+}
+@media only screen and (max-width: 623px){
+    #skills{
+       padding-bottom: 100px;
+    }
+    .inner-skill, .inner-program{
+        display: block;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    #skills{
+        padding-top: 100px;
+    }
+    .program-column{
+        display: flex;
+    }
+    .skillCloud{
+        display: none;
+    }
+    .skill-pill.filler{
+        display: none;
+    }
+    .app{
+        width: 70px;
+        height: 70px;
+        border-radius: 0%;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 4px;
+    }
+    .program{
+        margin-bottom: 30px;
+    }
+}
