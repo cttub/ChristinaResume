@@ -8,9 +8,9 @@ import cloudShadow1 from '../Assets/CloudShadow.svg';
 
 class Landing extends Component {
   state = {};
-
-
-
+  handleClick = () => {
+    window.location.href = 'mailto:ctbui.uyen@gmail.com';
+  };
   render() {
     return (
       <div id='home'>
@@ -33,7 +33,7 @@ class Landing extends Component {
               develop foundational skills and make a positive impact in the
               industry.
             </p>
-            <button>Contact Me</button>
+            <button onClick={this.handleClick}>Contact Me</button>
           </div>
         </div>
       </div>
