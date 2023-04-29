@@ -36,7 +36,6 @@ class Skills extends Component {
                                 <h1 className='title'>Programs</h1>
                                 <div className='inner-box'>
                                     <div className='program-column'>
-
                                         <div className='app procreate'></div>
                                         <div className='app slack'></div>
                                     </div>

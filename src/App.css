@@ -34,7 +34,8 @@ h1, h2, h3{
   margin-top: 0px;
   font-family: 'Bigfat';
   color: #FFFFFF;
-  -webkit-text-stroke: .101rem #4B3A50; 
+  -webkit-text-stroke: .081rem #4B3A50; 
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 p, button{
   font-family: 'Betm Medium';
@@ -62,7 +63,8 @@ h1{
   font-size: 70px;
 }
 h2{
-  font-size: 50px;
+  font-size: 35px;
+  -webkit-text-stroke: .071rem #4B3A50; 
 
 }
 h3{
@@ -101,6 +103,7 @@ h3{
 .fp-watermark{
   display: none;
 }
+
 *::-webkit-scrollbar {
   width: 10px !important;
 }
@@ -134,4 +137,29 @@ h3{
 }
 #fp-nav>ul>li>a>span{
   background: #F178B6 !important;
+}
+#nav{
+  z-index: 10;
+  background-color: transparent;
+}
+a{
+  text-decoration: none;
+}
+
+.navigation-component{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+  position: absolute;
+}
+.navigation-btn{
+  transition: ease-in-out .2s;
+}
+.navigation-btn:hover{
+  transform: scale(1.1);
+}
+.text-nav{
+  margin-right: 50px;
 }

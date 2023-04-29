@@ -3,6 +3,7 @@ import '../Style/career.css';
 import balloonGirl from '../Assets/Balloon.png';
 import miniCloud from '../Assets/smallCloud.svg';
 import Fade from 'react-reveal/Fade';
+import {Link} from 'react-router-dom';
 class Career extends Component {
     state = {  } 
     render() { 
@@ -21,7 +22,13 @@ class Career extends Component {
                      abilities, and make valuable contributions to
                       my team, clients, and projects.
                     </p>
-                    <button>See my experience</button>
+                   
+                    <Link className='navigation-btn text-nav'
+                            onClick={() => {
+                                        document.querySelector("html").scrollTo(0,0);
+                                        }}
+                            to = "/MyWork"> <button>See my experience</button> 
+                    </Link>
                 </div>
                 <Fade down duration = {2000}>
                     <div className='col-lg-3'>
