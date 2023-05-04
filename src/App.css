@@ -3,6 +3,7 @@ html{
 }
 body{
   background: #FFFADA;
+  overflow-x: hidden;
 }
 @font-face {
   font-family: 'BigFat';
@@ -35,12 +36,15 @@ h1, h2, h3{
   font-family: 'Bigfat';
   color: #FFFFFF;
   -webkit-text-stroke: .081rem #4B3A50; 
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ 
 }
-p, button{
+p, button, .betm-subtitle, a{
   font-family: 'Betm Medium';
 }
-p{
+.betm-subtitle{
+  font-size: 40px;
+}
+p, a{
   font-size: 36px;
   color: #4B3A50;
 }
@@ -68,11 +72,14 @@ h2{
 
 }
 h3{
-  font-size: 40px;
+  font-size: 50px;
 
 }
 .floating{
   animation: floater 2s infinite;
+}
+.smallLogo{
+  display: none;
 }
 @keyframes floater {
   0% {
@@ -127,10 +134,10 @@ h3{
   
   }
   h3{
-    font-size: 20px;
+    font-size: 30px;
   
   }
-  p, button{
+  p, button, a{
     font-size: 20px;
   }
 
@@ -142,9 +149,7 @@ h3{
   z-index: 10;
   background-color: transparent;
 }
-a{
-  text-decoration: none;
-}
+
 
 .navigation-component{
   width: 100%;
@@ -152,14 +157,49 @@ a{
   justify-content: space-between;
   align-items: center;
   z-index: 10;
-  position: absolute;
+  position: fixed;
+}
+.navigation-component > a{
+  text-decoration: none;
 }
 .navigation-btn{
   transition: ease-in-out .2s;
+}
+.navigation-btn > img{
+  width: 200px;
+  margin-top: 5px;
 }
 .navigation-btn:hover{
   transform: scale(1.1);
 }
 .text-nav{
   margin-right: 50px;
+}
+.back-to-top {
+  z-index: 10;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  background-color: #F178B6 ;
+  color: #fff;
+  border: none;
+  display: flex;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.back-to-top:hover {
+  opacity: 0.8;
+}
+@media only screen and (max-width: 847px){
+  .logo-main{
+    display: none;
+  }
+  .smallLogo{
+    display: block;
+  }
+  .navigation-btn > img{
+    width: 80px;
+  }
 }

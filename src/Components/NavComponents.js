@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from '../Assets/fullLogo.png';
+import smallLogo from '../Assets/fullLogo.svg';
 import {Link} from 'react-router-dom';
 class NavComponents extends Component {
     state = {  } 
@@ -7,11 +8,11 @@ class NavComponents extends Component {
         return (
             <div className='navigation-component'>
           
-                        <Link className='navigation-btn'
+                        <Link className='navigation-btn logo'
                                 onClick={() => {
                                             document.querySelector("html").scrollTo(0,0);
                                             }}
-                                to = "/">  <img src={logo}/>
+                                to = "/">  <img className='logo-main' src={logo}/><img className='smallLogo' src={smallLogo}/>
                         </Link>
             
              
@@ -19,7 +20,7 @@ class NavComponents extends Component {
                             onClick={() => {
                                         document.querySelector("html").scrollTo(0,0);
                                         }}
-                            to = "/MyWork"><h3>My Work</h3>
+                            to = "/MyWork"><h2>My Work</h2>
                     </Link>
                
             </div>

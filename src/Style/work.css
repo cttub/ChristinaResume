@@ -1,0 +1,152 @@
+#work{
+    background: linear-gradient(180deg, #B996DB 0%, rgba(185, 150, 219, 0) 100%);
+    overflow-x: hidden;
+}
+.caseStudy{
+    padding-top: 200px;
+    
+}
+
+.case-card{
+    margin: auto;
+    margin-bottom: 30px;
+    position: relative;
+    background: rgba(255, 255, 255, 0.37);
+    border: 1px solid #4B3A50;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    padding: 100px;
+    width: 70%;
+}
+.case-card > .logo{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 200px;
+    opacity: 30%;
+}
+.case-card > h3, .betm-subtitle{
+    margin-bottom: -20px;
+
+}
+.case-button{
+   float: right;
+}
+.case-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.case-btn {
+    border: solid;
+    width: 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.case-btn > img{
+    width: 100%;
+}
+@media only screen and (max-width: 712px){
+    .case-card{
+       width: auto;
+       padding: 20px;
+       border-radius: 20px;
+    }
+    .case-card > .betm-subtitle{
+        font-size: 30px;
+        margin-bottom: -10px;
+    }
+    .case-card > .logo{
+        display: none;
+    }
+    .case-button{
+        float: none;
+     }
+}
+.project-overview{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.Dropdown{
+    margin-top: 30px;
+}
+.dropdown-btn {
+    cursor: pointer;
+    color: #4B3A50;
+    background: #B996DB;
+    box-shadow: 0px 4px 4px #4B3A50;
+    border-radius: 98px;
+    width: 100%;
+    text-align: left;
+    z-index: 2;
+    
+}
+.dropdown-btn:hover{
+    transform: scale(1);
+}
+.dropdown-btn > .title{
+    display: inline;
+}
+.dropdown-btn > .arrows{
+    display: inline;
+    float: right;
+}
+.information {
+  display: none;
+}
+.information > .block{   
+    margin: auto;
+}
+.information.open {
+    display: flex;
+    z-index: 1;
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 40px;
+    padding-bottom: 60px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+.dropdown-info{
+    padding-left: 20px;
+    text-align: left;
+}
+.dropdown-link > button{
+    margin-right: 20px;
+}
+@media only screen and (max-width: 1302px){
+    
+    .dropdown-info > h3, .dropdown-info > p{
+        display: none;
+    }
+    .pdf{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .dropdown-info{
+        padding-left: 0px;
+        text-align: center;
+    }
+    .dropdown-link > a{
+        display: block;
+        margin-top: 12px;
+    }
+    .information.open{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .pdf{
+        margin: auto;
+    }
+}
