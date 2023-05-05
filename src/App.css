@@ -38,15 +38,18 @@ h1, h2, h3{
   -webkit-text-stroke: .081rem #4B3A50; 
  
 }
-p, button, .betm-subtitle, a{
+p, button, .betm-subtitle, a, li{
   font-family: 'Betm Medium';
 }
 .betm-subtitle{
   font-size: 40px;
 }
-p, a{
+p, a, li{
   font-size: 36px;
   color: #4B3A50;
+}
+li{
+  margin-bottom: 15px;
 }
 button{
   font-size: 30px;
@@ -137,7 +140,7 @@ h3{
     font-size: 30px;
   
   }
-  p, button, a{
+  p, button, a, li{
     font-size: 20px;
   }
 

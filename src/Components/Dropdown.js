@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import Fade from 'react-reveal/Fade';
 function Dropdown(props) {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] =  useState(false); //Function setIsOpen and variable isOpen = false
 
+ //Function that changes the value of IsOpen. Toggling the boolean value.
   function toggleDropdown() {
     setIsOpen(!isOpen);
   }
@@ -13,13 +14,14 @@ function Dropdown(props) {
 
   return (
     <div className="Dropdown">
-      <button className="dropdown-btn" onClick={toggleDropdown}>
+      <button className="dropdown-btn" onClick={toggleDropdown}> 
         <div className='title'>{props.title}</div>
         <div className='arrows'>
         {isOpen ? '\u25B2' : '\u25BC'}
         </div>
       </button>
-      <Fade duration = {300}><div className={`information ${isOpen ? "open" : ""}`}>
+      {/* If isOpen is true then add open to the class name if false then leave "" or blank*/}
+      <Fade duration = {300}><div className={`information ${isOpen ? "open" : ""}`}> 
        
             <div className="pdf col-lg-10 block">
                 <iframe src={props.pdfUrl}  width='100%' height="800"></iframe>
