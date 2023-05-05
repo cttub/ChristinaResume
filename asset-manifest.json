@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.248029bf.css",
+    "main.js": "/static/js/main.3becc760.js",
+    "static/js/787.dd279bf0.chunk.js": "/static/js/787.dd279bf0.chunk.js",
+    "static/media/Balloon.png": "/static/media/Balloon.f48cc9c8ae3bb94411ba.png",
+    "static/media/NewLanding.png": "/static/media/NewLanding.3c120d8c65a5d9d9b479.png",
+    "static/media/LandingBefore.png": "/static/media/LandingBefore.88edccdb900fd7ff1af1.png",
+    "static/media/Old.png": "/static/media/Old.b72be55f8bc38dd9a538.png",
+    "static/media/Bunny.png": "/static/media/Bunny.1ef3570311a81c91b3bc.png",
+    "static/media/NeonSensations.png": "/static/media/NeonSensations.ee4ad0476d5992bddd77.png",
+    "static/media/Bigfat.ttf": "/static/media/Bigfat.908af64baa476deeffb9.ttf",
+    "static/media/BetmRounded-Bold.ttf": "/static/media/BetmRounded-Bold.344ad864c3d1dca0ab6f.ttf",
+    "static/media/BetmRounded-Regular.ttf": "/static/media/BetmRounded-Regular.06b0a7e27a2a756f801f.ttf",
+    "static/media/BetmRounded-Medium.ttf": "/static/media/BetmRounded-Medium.5f774f9caf150c141956.ttf",
+    "static/media/DimeLogo.png": "/static/media/DimeLogo.46de9b1056648971ee15.png",
+    "static/media/OldLogo.png": "/static/media/OldLogo.4b3380d65dddfeb786d5.png",
+    "static/media/DinoDoodsLogo.png": "/static/media/DinoDoodsLogo.9fbdd1d85bbc625382cf.png",
+    "static/media/homepage.png": "/static/media/homepage.fc535f4a2b7a088a7946.png",
+    "static/media/mission.png": "/static/media/mission.587dcad70444ee552e0c.png",
+    "static/media/about.png": "/static/media/about.07da028d320cb043ca60.png",
+    "static/media/fullLogo.png": "/static/media/fullLogo.8810ac3b7c33eec3d21c.png",
+    "static/media/adobe.png": "/static/media/adobe.80d44ad1022c369206d5.png",
+    "static/media/canva.png": "/static/media/canva.fbbe0fa16e96baf539d9.png",
+    "static/media/wordpress.png": "/static/media/wordpress.be4a10505f2fcf2b1b14.png",
+    "static/media/procreate.png": "/static/media/procreate.10d575f6ea8183c491eb.png",
+    "static/media/fullLogo.svg": "/static/media/fullLogo.6b08a9ec7d825ee310c1d81f73a44752.svg",
+    "static/media/cloudFlip.svg": "/static/media/cloudFlip.2e6d8438a1298d02edcad5f400faa92c.svg",
+    "static/media/logo.svg": "/static/media/logo.8681bdf3237625c745f93edbe9a917f0.svg",
+    "static/media/smallCloud.svg": "/static/media/smallCloud.8681bdf3237625c745f93edbe9a917f0.svg",
+    "static/media/CloudShadow.svg": "/static/media/CloudShadow.b54a243f6cda652a1566c21359db2dc0.svg",
+    "static/media/Cloud.svg": "/static/media/Cloud.cc2e050f6836edd96ee3d17e3b416e3e.svg",
+    "static/media/arrow.svg": "/static/media/arrow.2f10d1b4352dd4a7428b2d0f16beb17e.svg",
+    "index.html": "/index.html",
+    "main.248029bf.css.map": "/static/css/main.248029bf.css.map",
+    "main.3becc760.js.map": "/static/js/main.3becc760.js.map",
+    "787.dd279bf0.chunk.js.map": "/static/js/787.dd279bf0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.248029bf.css",
+    "static/js/main.3becc760.js"
+  ]
+}
