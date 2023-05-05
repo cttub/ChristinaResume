@@ -6,9 +6,10 @@ class SkillsSmall extends Component {
         return (
             <div className='smaller-skill'>
             
-                 <div className='skills'>
-                        <h1 className='title'>Skills</h1>
+                 <div style={{marginTop: "200px"}} className='skill-box' id='skillsTiny'>
+                        <h1>Skills</h1>
                         <div className='inner-skill'>
+                            
                             <div className='pill-column'>
                                 <p className='skill-pill java'>Java</p>
                                 <p className='skill-pill html'>HTML</p>
