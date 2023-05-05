@@ -21,7 +21,7 @@ function Dropdown(props) {
         </div>
       </button>
       {/* If isOpen is true then add open to the class name if false then leave "" or blank*/}
-      <Fade duration = {300}><div className={`information ${isOpen ? "open" : ""}`}> 
+      <div className={`information ${isOpen ? "open" : ""}`}> 
        
             <div className="pdf col-lg-10 block">
                 <iframe src={props.pdfUrl}  width='100%' height="800"></iframe>
@@ -36,7 +36,7 @@ function Dropdown(props) {
                 <a href={props.pdfUrl} target="_blank">View full PDF</a>
                 </div>
             </div>
-      </div></Fade>
+      </div>
     </div>
   );
 }
