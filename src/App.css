@@ -38,13 +38,13 @@ h1, h2, h3{
   -webkit-text-stroke: .081rem #4B3A50; 
  
 }
-p, button, .betm-subtitle, a, li{
+p, button, .betm-subtitle, a, li, table{
   font-family: 'Betm Medium';
 }
 .betm-subtitle{
   font-size: 40px;
 }
-p, a, li{
+p, a, li, table{
   font-size: 36px;
   color: #4B3A50;
 }
@@ -78,6 +78,12 @@ h3{
   font-size: 50px;
 
 }
+th{
+  border: solid #4B3A50;
+  padding: 10px;
+  border-radius: 10px;
+}
+
 .floating{
   animation: floater 2s infinite;
 }
@@ -140,7 +146,10 @@ h3{
     font-size: 30px;
   
   }
-  p, button, a, li{
+  .case-main > .heading > h3{
+    font-size: 30px !important;
+  }
+  p, button, a, li, table{
     font-size: 20px;
   }
 

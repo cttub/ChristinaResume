@@ -45,10 +45,11 @@
     width: 16%;
 }
 .case-main > .heading > h3{
+    font-size: 40px;
     padding: 30px;
 }
 .heading > h3{
-    width: 60%;
+    width: 80%;
 }
 #dino > .heading > .img-logo{
    background: url('../../Assets/Case/DinoDoodsLogo.png');
@@ -189,8 +190,30 @@
     margin-bottom: 100px;
     border-left: 6px solid #4B3A50;
 }
+.table{
+    display: flex;
+    justify-content: center;
+}
+.anaytics{
+    height: 900px;
+    width: 40%;
+   
+}
+.data > .title{
+    margin-top: 0px;
+    border-bottom: #4B3A50 solid;
+    padding: 10px;
+}
+.refreshed-data{
+    border-left: #4B3A50 solid;
+}
+.data{
+    width: 40%;
+    text-align: center;
+    overflow: hidden;
+ 
+}
 @media only screen and (max-width: 1500px) and (min-width: 992px){
-
     .finalDesign{
         height: 1700px !important;
     }
@@ -203,8 +226,6 @@
         width: 90%;
         height: auto;
     }
-
-
 }
 @media only screen and (max-width: 1294px){
     .case-main > .heading > .img-logo{
@@ -269,5 +290,62 @@
     .case-main {
         padding: 4px;
         padding-top: 150px;
+    }
+}
+
+.landing-design{
+    display: flex;
+}
+.landing-design > div{
+    width: 40%;
+    height: 500px;
+}
+.landing-design  > .case-box{
+    margin-right: 20px;
+}
+.old-design{
+    margin: auto;
+    background: url('../../Assets/Case/Sensations/Old.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.new-design{
+    margin: auto;
+    background: url('../../Assets/Case/Sensations/LandingBefore.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.case-box.design{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.image{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.old-landing {
+    border: solid;
+}
+
+.old-design, .new-design{
+    width: 50%;
+}
+
+@media only screen and (max-width: 1424px){
+    .landing-design  > .case-box{
+        height: auto;
+    }
+    .landing-design{
+        display: block;
+        justify-content: center;
+    }
+    .landing-design > div{
+        width: 90%;
     }
 }
