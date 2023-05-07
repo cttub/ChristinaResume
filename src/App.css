@@ -252,13 +252,13 @@ th{
 }
 .foot-logos > a > svg{
   width: 40px;
-  fill: #F178B6;
+  fill: white;
   margin: 10px;
   transition: ease-in-out .2s;
 
 }
 .foot-logos > a > svg:hover{
-  fill: #B996DB;
+  fill: #F178B6;
 }
 @media only screen and (max-width: 639px){
  #footer{
