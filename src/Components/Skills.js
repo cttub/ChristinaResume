@@ -4,6 +4,7 @@ import miniCloud from '../Assets/smallCloud.svg';
 import flipCloud from '../Assets/cloudFlip.svg';
 import SkillsSmall from './SkillsSmall';
 import Fade from 'react-reveal/Fade';
+import Footer from './Footer';
 class Skills extends Component {
     state = {  } 
     render() { 
@@ -60,7 +61,7 @@ class Skills extends Component {
                       <div className='smaller-device-boxes'>
                          <SkillsSmall/>
                       </div>
-
+                    
             </div>
         );
     }

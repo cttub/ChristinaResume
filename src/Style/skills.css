@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
     
 }
 .skillCloud{
@@ -143,6 +144,7 @@
 .smaller-skill{
     text-align: center;
     justify-content: center;
+    padding-bottom: 10px;
 }
 .inner-skill, .inner-program{
     display: flex;
@@ -172,12 +174,14 @@
         z-index: 2;
     }
     #skills{
+        height: auto;
         padding-top: 0px;
     }
     .skillCloudOne{
         display: none;
     }
 }
+
 @media only screen and (max-width: 623px){
     #skills{
        padding-bottom: 100px;

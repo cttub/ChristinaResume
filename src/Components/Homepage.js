@@ -6,6 +6,7 @@ import Landing from './Landing';
 import Career from './Career';
 import Skills from './Skills';
 
+import Footer from './Footer';
 const licenseKey = '5OHLK-PXI0J-1K60I-BJ6SI-TOONN';
 
 class Homepage extends Component {
@@ -36,7 +37,9 @@ class Homepage extends Component {
               </div>
               <div className='section'>
                 <Skills />
+                <Footer/>
               </div>
+              
             </ReactFullpage.Wrapper>
           );
         }}
