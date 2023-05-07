@@ -3,6 +3,7 @@ import './case.css';
 import Fade from 'react-reveal/Fade';
 import CaseNav from './CaseNav';
 import BacktoTop from '../BackToTop';
+import Footer from '../Footer';
 class Dino extends Component {
     state = {  } 
     handleClick = () => {
@@ -19,6 +20,7 @@ class Dino extends Component {
       };
     render() { 
         return (
+            <>
             <div className='case-main' id='dino'>
                 <BacktoTop/>
             <CaseNav
@@ -155,6 +157,8 @@ class Dino extends Component {
                    <p style={{marginTop: "-36px"}}>By taking the initiative to implement the rebranding and redevelopment of DinoDoods, I gained hands-on experience with React.js for the first time and was able to make improvements to web design and responsiveness. Overall, there was success in improving the structure, color palette, and mood of the webpage. With my current experience, I can further push the branding by providing a clean logo, organizing the informational structure, and creating a user-friendly experience that fits within the DinoDoods atmosphere.</p>
                 
             </div>
+            <Footer/>
+            </>
         );
     }
 }

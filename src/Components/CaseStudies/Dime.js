@@ -3,6 +3,7 @@ import './case.css';
 import Fade from 'react-reveal/Fade';
 import CaseNav from './CaseNav';
 import BacktoTop from '../BackToTop';
+import Footer from '../Footer';
 class Dime extends Component {
   
     state = {  } 
@@ -19,6 +20,7 @@ class Dime extends Component {
     render() { 
         
         return (
+            <>
             <div className='case-main' id='dime'>
                  <BacktoTop/>
                    <CaseNav
@@ -109,6 +111,8 @@ class Dime extends Component {
 
                  </div>
             </div>
+            <Footer/>
+            </>
         );
     }
 }

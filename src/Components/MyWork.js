@@ -7,7 +7,7 @@ import Fade from 'react-reveal/Fade';
 import Dropdown from './Dropdown';
 import BackToTop from './BackToTop';
 import {Link} from 'react-router-dom';
-
+import Footer from './Footer';
 const caseStudies = [
   {
     name: 'DinoDoods NFT',
@@ -104,6 +104,7 @@ function MyWork() {
             
                       
                 </div>
+                <Footer/>
             </div>
 
         );

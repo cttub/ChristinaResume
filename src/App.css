@@ -129,9 +129,9 @@ th{
 }
 
 *::-webkit-scrollbar {
-  width: 10px !important;
-  background-color: transparent !important;
-  
+  width: 8px !important;
+  background-color: #B996DB !important;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, .8);
 }
 
 

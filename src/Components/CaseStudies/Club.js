@@ -3,7 +3,7 @@ import './case.css';
 import Fade from 'react-reveal/Fade';
 import CaseNav from './CaseNav';
 import BacktoTop from '../BackToTop';
-
+import Footer from '../Footer';
 import landing from '../../Assets/Case/Sensations/NewLanding.png'
 class Club extends Component {
     state = {  } 
@@ -15,6 +15,7 @@ class Club extends Component {
       };
     render() { 
         return (
+            <>
             <div className='case-main' id='club'>
                 <BacktoTop/>
                   <CaseNav
@@ -129,6 +130,8 @@ class Club extends Component {
             
             
             </div>
+            <Footer/>
+            </>
         );
     }
 }
