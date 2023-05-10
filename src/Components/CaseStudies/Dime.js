@@ -16,6 +16,9 @@ class Dime extends Component {
       projectPage =()=>{
         window.open('https://dimesociety.org/courses/applied-digital-health-ethics/', '_blank');
       }
+      glossary =()=>{
+        window.open('https://dimesociety.org/glossary/', '_blank');
+      }
       
     render() { 
         
@@ -86,9 +89,8 @@ class Dime extends Component {
                 <Fade duration = {1500}><div className='case-box'>
                         <h3 style={{marginBottom: "-10px"}}>Applied Digital Ethics</h3>
                         <ul>
-                            <li>Designed & Developed Landing Page for User Advertisement using Wordpress and Miro.</li>
-                            <li>Designed & Developed <a href='https://dimesociety.org/my-dashboard/' target='_blank'>User Dashboard.</a></li>
-                            <li>Implemented WooCommerce to provide better user flow for course purchases.</li>
+                        <li>Implemented WooCommerce to provide better user flow for course purchases.</li>
+                        <li>Evaluate and develop variety of mockups to determine best UX design.</li>
                         </ul>
                         <div className='button-casebox'>
                         <button onClick={this.projectPage}>View Project Page</button>
@@ -102,7 +104,10 @@ class Dime extends Component {
                             <li>Designed wireframes, structured layouts, and developed design components.</li>
                             <li>Engaged in multiple iterations to ensure that the team's vision aligned with a high-quality user experience.</li>
                         </ul>
-                        <p style={{color: "#F178B6", textAlign: "center"}}>Project Details Coming Soon</p>
+                        
+                        <div className='button-casebox'>
+                        <button onClick={this.glossary}>View Project Page</button>
+                        </div>
                         
                     </div></Fade>
                  
