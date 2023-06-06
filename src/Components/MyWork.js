@@ -72,7 +72,20 @@ function MyWork() {
       <div className='project-overview'>
         <h1>Other Projects</h1>
     
-
+                 <Dropdown
+                    title="Markitfly Media"
+                    shortTitle = "Web Design"
+                    pdfUrl="https://drive.google.com/file/d/1Daig5xhC5w-bjrJ2zzdKlRrdc_01VtoT/preview"
+                    description = {<p>Designed and Developed the branding for Markitfly, a freelance marketing startup<p style={{fontSize: "20px", color: "#F178B6"}}>3D Pig sculpted by Me!</p></p> }
+                    webUrl = "https://www.markitfly.com/"
+                  />
+                  <Dropdown
+                    title="Headache Specialist Design"
+                    shortTitle = "Concept Design"
+                    webUrl = "https://headachespecialistsofoklahoma.com/"
+                    pdfUrl="https://drive.google.com/file/d/1Zpmry5yFE9cYHZMVP8IXigN32yNSz8WR/preview"
+                    description = "Concept Website Design for Tulsa's Headache Specialist's homepage." 
+                  />
                   <Dropdown
                     title="Broadview Seafood"
                     shortTitle="Broadview Seafood"
@@ -101,6 +114,7 @@ function MyWork() {
                     pdfUrl="https://drive.google.com/file/d/1sjDl5H4njt0bfEgFhNAQW-GkIY6LGUbz/preview"
                     description = "Here are some extra wireframes and design work." 
                   />
+                 
             
                       
                 </div>

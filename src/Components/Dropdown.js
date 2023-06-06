@@ -28,7 +28,7 @@ function Dropdown(props) {
             </div>
 
             <div className='dropdown-info block'>
-                    <h3>{props.shortTitle}</h3>
+                    <h3 style={{marginBottom: "-40px"}}>{props.shortTitle}</h3>
                     <p>{props.duration}</p>
                     <p>{props.description}</p>
                 <div className='dropdown-link'>

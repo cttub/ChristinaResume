@@ -25,7 +25,7 @@ class Club extends Component {
                         <div className='img-logo'></div>
                         <h3>Creating a company’s online presence to attract clients and future employees</h3>
                     </div>     
-
+                    <div style={{display: "flex", justifyContent: "end", marginTop: "10px"}}><a href='https://sensationsgc.club/' target='_blank'><button>Visit Website Here</button></a></div>
                     <h3 style={{marginBottom: "-30px"}}>Disclaimer</h3>
                     <p>Please note that I was solely responsible for the design and development of the
                          website for Sensations. My involvement with the club was limited to the design and 
@@ -127,7 +127,8 @@ class Club extends Component {
                     </div>
                 <h3 style={{marginTop: "100px"}}>Conclusion</h3>
                 <p style={{marginTop: "-20px"}}>In conclusion, the website optimizations made to Sensations have had a positive impact on the company's growth. The previous landing pages lacked a clear call to action, resulting in low conversion rates. However, the updated landing page contains more SEO terms and a prominent call to action, resulting in improved conversion rates and attracting more applicants. The statistics provided by Google Domains and Analytics show a significant increase in total clicks and impressions after the refreshed design leading to a higher number of applicants per month.</p>
-            
+
+              
             
             </div>
             <Footer/>
