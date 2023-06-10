@@ -7,8 +7,18 @@ import Fade from 'react-reveal/Fade';
 import Dropdown from './Dropdown';
 import BackToTop from './BackToTop';
 import {Link} from 'react-router-dom';
+import badge from '../Assets/employed.png';
 import Footer from './Footer';
 const caseStudies = [
+  {
+    name: 'Digital Medicine Society',
+    title: 'Technical Manager / Former Associate Front-End Developer',
+    description: 'At DiMe, I utilize Wordpress, HTML, CSS, and Miro to provide high quality Front-End Developer work, as well as UX/UI design concepts and ideas.',
+    logo: DimeLogo,
+    link: '/DiMe',
+    id: "dime",
+    imageStamp: badge,
+  },
   {
     name: 'DinoDoods NFT',
     title: 'Front-End Designer & Developer',
@@ -25,14 +35,7 @@ const caseStudies = [
     link: '/Sensations',
     id: "sensations",
   },
-  {
-    name: 'Digital Medicine Society',
-    title: 'Associate Front-end Developer',
-    description: 'At DiMe, I utilize Wordpress, HTML, CSS, and Miro to provide high quality Front-End Developer work, as well as UX/UI design concepts and ideas.',
-    logo: DimeLogo,
-    link: '/DiMe',
-    id: "dime",
-  },
+  
 ];
 
 function MyWork() {
@@ -40,11 +43,13 @@ function MyWork() {
   const renderCaseCards = () => {
     return caseStudies.map((caseStudy, index) => (
       <Fade up>
+       
         <div className='case-card' id={caseStudy.id} key={index}>
+        <img className='image-stamp' src={caseStudy.imageStamp}/>
           <h3>{caseStudy.name}</h3>
-          <p className='betm-subtitle'>{caseStudy.title}</p>
+          <p style={{borderBottom: "solid 2px", paddingBottom: "10px"}} className='betm-subtitle'>{caseStudy.title}</p>
           <p>{caseStudy.description}</p>
-          <img className='logo' src={caseStudy.logo} alt={caseStudy.name} />
+
           <Link className='case-button'
             onClick={() => {
               document.querySelector("html").scrollTo(0, 0);
