@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.643668ec.css",
-    "main.js": "/static/js/main.d6d801e3.js",
+    "main.css": "/static/css/main.87179c53.css",
+    "main.js": "/static/js/main.f8d2fac7.js",
     "static/js/787.dd279bf0.chunk.js": "/static/js/787.dd279bf0.chunk.js",
     "static/media/Balloon.png": "/static/media/Balloon.f48cc9c8ae3bb94411ba.png",
     "static/media/NewLanding.png": "/static/media/NewLanding.3c120d8c65a5d9d9b479.png",
@@ -13,6 +13,7 @@
     "static/media/BetmRounded-Bold.ttf": "/static/media/BetmRounded-Bold.344ad864c3d1dca0ab6f.ttf",
     "static/media/BetmRounded-Regular.ttf": "/static/media/BetmRounded-Regular.06b0a7e27a2a756f801f.ttf",
     "static/media/BetmRounded-Medium.ttf": "/static/media/BetmRounded-Medium.5f774f9caf150c141956.ttf",
+    "static/media/employed.png": "/static/media/employed.65de2776dd8d76c6a230.png",
     "static/media/DimeLogo.png": "/static/media/DimeLogo.46de9b1056648971ee15.png",
     "static/media/OldLogo.png": "/static/media/OldLogo.4b3380d65dddfeb786d5.png",
     "static/media/DinoDoodsLogo.png": "/static/media/DinoDoodsLogo.9fbdd1d85bbc625382cf.png",
@@ -34,12 +35,12 @@
     "static/media/arrow.svg": "/static/media/arrow.2f10d1b4352dd4a7428b2d0f16beb17e.svg",
     "index.html": "/index.html",
     "static/media/linked.svg": "/static/media/linked.aa4e4fbc8d584add8f39e59c8e2ad2a5.svg",
-    "main.643668ec.css.map": "/static/css/main.643668ec.css.map",
-    "main.d6d801e3.js.map": "/static/js/main.d6d801e3.js.map",
+    "main.87179c53.css.map": "/static/css/main.87179c53.css.map",
+    "main.f8d2fac7.js.map": "/static/js/main.f8d2fac7.js.map",
     "787.dd279bf0.chunk.js.map": "/static/js/787.dd279bf0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.643668ec.css",
-    "static/js/main.d6d801e3.js"
+    "static/css/main.87179c53.css",
+    "static/js/main.f8d2fac7.js"
   ]
 }
