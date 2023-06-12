@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Fade from 'react-reveal/Fade';
+
 function Dropdown(props) {
   const [isOpen, setIsOpen] =  useState(false); //Function setIsOpen and variable isOpen = false
 
@@ -23,7 +23,7 @@ function Dropdown(props) {
       {/* If isOpen is true then add open to the class name if false then leave "" or blank*/}
       <div className={`information ${isOpen ? "open" : ""}`}> 
        
-            <div className="pdf col-lg-10 block">
+            <div className="pdf col-lg-12 block">
                 <iframe src={props.pdfUrl}  width='100%' height="800"></iframe>
             </div>
 

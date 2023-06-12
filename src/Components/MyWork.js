@@ -108,20 +108,28 @@ function MyWork() {
                     webUrl = "https://www.refinedreach.net/"
                   />
                    <Dropdown
+                    title="Just for Parrots Competative Audit"
+                    shortTitle = "Competative Audit"
+                    pdfUrl="https://drive.google.com/file/d/10ZEYDdG34k7wp7rEaV9xW0Dqf0UaATCF/preview"
+                    description = {<p>To strategize a website redesign for Just for Parrot, I initiated a competitive audit to assess their competitors and examine the user experience provided on their platforms.<p style={{fontSize: "20px", color: "#F178B6"}}>Current Website is made from a Third-Party Service and not developed or designed by me</p></p>} 
+                    webUrl = "https://store.justforparrots.com/"
+          
+                  />
+                   <Dropdown
                     title="Past Resume Designs"
                     shortTitle = "Previous Designs"
                     pdfUrl="https://drive.google.com/file/d/1mtbiIZ4y3HqlNWEIfC0-IT5D0anUPY9r/preview"
                     description = "Here are some of the previous iterations of my online resume."
                   />
-                    <Dropdown
-                    title="Extra Wireframes"
-                    shortTitle = "Extra Wireframes"
-                    pdfUrl="https://drive.google.com/file/d/1sjDl5H4njt0bfEgFhNAQW-GkIY6LGUbz/preview"
-                    description = "Here are some extra wireframes and design work." 
-                  />
+             
+                
                  
             
                       
+                </div>
+                <div style={{textAlign: "center", marginBottom: "100px"}}>
+                  <p style={{ marginBottom: "10px"}}>Want to stay updated on my work?</p>
+                  <a className='pink-link-hover' style={{fontSize: "30px"}} href='https://www.linkedin.com/in/cttub/' target='_blank'>Connect with me on LinkedIn!</a>
                 </div>
                 <Footer/>
             </div>

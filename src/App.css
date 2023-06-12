@@ -173,7 +173,12 @@ th{
   background-color: transparent;
 }
 
-
+.pink-txt{
+  color: #F178B6;
+}
+.pink-link-hover:hover{
+  color: #F178B6;
+}
 .navigation-component{
   width: 100%;
   display: flex;
